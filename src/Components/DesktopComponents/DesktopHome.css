@@ -1,0 +1,41 @@
+.desktop_home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.desktop_home_body {
+    margin-top: 17vh;
+    margin-left: 70px;
+}
+
+.desktop_home_body img {
+    width: 35vw;
+    height: 35vh;
+    margin-left: 10px;
+}
+
+.desktop_home_body h1 {
+    font-size: 42px;
+    margin-left: 9vw;
+
+}
+
+.desktop_home_body p {
+    margin-left: 10px;
+    font-size: 20px;
+    text-align: center;
+    max-width: 590px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.desktop_home_footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 25px;
+}

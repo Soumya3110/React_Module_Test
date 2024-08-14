@@ -1,0 +1,82 @@
+.mobiles_notes_page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DAE5F5;
+    
+}
+
+.mobile_notes_title {
+    width: 100vw;
+    height: 10vh;
+    background-color: #001F8B;
+    display: flex;
+    align-items: center;
+    font-size: 5vh;
+}
+
+.mobile_notes_title img {
+    margin-left: 15px;
+}
+
+.mobile_notes__title_logo_color {
+    height: 6vh;
+    width: 6vh;
+    border-radius: 50%;
+    margin: 0.5vh 0 0 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3.5vh;
+}
+
+.mobile_notes_title_text {
+    margin-left: 4vh;
+    color: white;
+    font-size: 3.5vh;
+}
+
+.desktop__notes__content {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 57vh;
+    max-height: 58vh;
+    width: 76vw;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.mobile_notes_input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 23vh;
+    width: 100vw;
+    background-color: #001F8B;
+    position: fixed;
+    bottom: 0;
+}
+
+.mobile_notes_input textarea {
+    border: none;
+    outline: none;
+    border-radius: 1vh;
+    font-size: large;
+    padding: 1vh;
+    height: 18vh;
+    width: 90vw;
+    resize: none;
+}
+
+.mobile_notes_input img {
+    position: absolute;
+    bottom: 4vh;
+    right: 6vh;
+    width: 20px;
+    height: 20px;
+}

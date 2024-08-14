@@ -1,0 +1,51 @@
+.mobile_notes_content_note {
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+    align-items: right;
+    min-height: 15vh;
+    height: auto;
+    width: 93vw;
+    margin: 15px 25px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 15px 20px rgb(0, 0, 0, 0.2);
+
+}
+
+.mobile_notes_content_date_time_details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    gap: 5px;
+}
+
+.circle {
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 2px;
+}
+
+.mobile_notes_content_date {
+    font-size: 0.8rem;
+    font-weight: 600;
+margin-left: -35px;
+}
+
+.mobile_notes_content_time {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.mobile_notes_content_details {
+    min-height: 30vh;
+    height: auto;
+    width: 50vw;
+    text-align: left;
+    margin: 3vh 2vh 0 20px;
+
+}

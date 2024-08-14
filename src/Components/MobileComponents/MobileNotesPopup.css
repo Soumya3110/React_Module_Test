@@ -1,0 +1,115 @@
+.mobile_popup {
+    height: 12rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 20px;
+}
+
+.mobile_popup_title {
+    height: 2rem;
+    width: 23rem;
+    font-size: 3.2vh;
+    font-weight: 600;
+}
+
+.mobile_popup_groupname_input {
+    font-size: 2.5vh;
+    font-weight: 600;
+    display: flex;
+    gap: 3vw;
+    align-items: center;
+
+}
+
+.mobile_popup_groupname_input input {
+    width: 45vw;
+    height: 5px;
+    border: 2px solid grey;
+    border-radius: 6vh;
+    padding: 0.9rem;
+    font-size: 2vh;
+    font-weight: 600;
+    margin-top: 10px;
+
+}
+
+.mobile_popup_bgcolor_input {
+    font-size: 2.5vh;
+    font-weight: 600;
+    display: flex;
+    gap: 3.5vw;
+    align-items: center;
+    margin-top: 15px;
+
+}
+
+.popup_bgcolor_choise {
+    display: flex;
+    gap: 2.5vw;
+}
+
+.popup_bgcolor_choise_1,
+.popup_bgcolor_choise_2,
+.popup_bgcolor_choise_3,
+.popup_bgcolor_choise_4,
+.popup_bgcolor_choise_5,
+.popup_bgcolor_choise_6 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.mobile_popup_bgcolor_choise_1 {
+    background-color: #B38BFA;
+}
+
+.mobile_popup_bgcolor_choise_2 {
+    background-color: #FF79F2;
+}
+
+.mobile_popup_bgcolor_choise_3 {
+    background-color: #43E6FC;
+}
+
+.mobile_popup_bgcolor_choise_4 {
+    background-color: #F19576;
+}
+
+.mobile_popup_bgcolor_choise_5 {
+    background-color: #0047FF;
+}
+
+.mobile_popup_bgcolor_choise_6 {
+    background-color: #6691FF;
+}
+
+.mobile_close_popup {
+    display: flex;
+    justify-content: center;
+}
+
+.mobile_close_popup button {
+    height: 5vh;
+    width: 40vw;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    background-color: #001F8B;
+    margin-top: 20px;
+}
+
+.highlight {
+    border: 2px solid black;
+    border-radius: 6vh;
+}

@@ -1,0 +1,33 @@
+.mobile_title_logos {
+    margin: 1vw 0 1vw 0.5vw;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+    padding-left: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.mobile_title_logo {
+    height: 7vh;
+    width: 7vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vh;
+    font-weight: 500;
+    color: white;
+}
+
+.highlight_title {
+    background-color: #2F2F2F2B;
+}
+
+.mobile_group_title {
+    font-size: 20px;
+}

@@ -1,0 +1,77 @@
+.desktop_notes {
+    width: 75vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .desktop_notes_title {
+    height: 10vh;
+    width: 75vw;
+    background-color: #001F8B;
+    display: flex;
+    align-items: center;
+    font-size: 5vh;
+  }
+  
+  .desktop_notes_title_color {
+    height: 7vh;
+    width: 7vh;
+    border-radius: 50%;
+    margin: 0.5vh 0 0 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 4vh;
+  }
+  
+  .desktop_notes_title_text {
+    margin-left: 4vh;
+    color: white;
+    font-size: 3.5vh;
+  }
+  
+  .desktop_notes_content {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 57vh;
+    max-height: 58vh;
+    width: 76vw;
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+  .desktop_notes_input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 75vw;
+    background-color: #001F8B;
+    position: fixed;
+    bottom: 0;
+  }
+  
+  .desktop_notes_input textarea {
+    border: none;
+    outline: none;
+    border-radius: 1vh;
+    font-size: large;
+    padding: 1vh;
+    height: 25vh;
+    width: 72vw;
+    resize: none;
+  }
+  
+  .desktop_notes_input img {
+    position: absolute;
+    bottom: 4vh;
+    right: 6vh;
+    width: 20px;
+    height: 20px;
+  }
